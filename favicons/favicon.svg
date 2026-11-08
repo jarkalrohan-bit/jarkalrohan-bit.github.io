@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Bold Terminal Prompt >_ -->
+  <g fill="none" stroke="#00D4FF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <!-- The greater-than sign -->
+    <polyline points="30,30 60,50 30,70" />
+    <!-- The underscore -->
+    <line x1="65" y1="72" x2="85" y2="72" />
+  </g>
+</svg>
