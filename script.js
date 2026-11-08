@@ -197,6 +197,22 @@ function setupYear() {
   if (el) el.textContent = new Date().getFullYear();
 }
 
+function downloadResume() {
+  // Create a temporary link element
+  const link = document.createElement("a");
+  
+  // Point it to your actual PDF file in the assets folder
+  link.href = "assets/resume-updated.pdf"; 
+  
+  // 👇 THIS is what forces the download name
+  link.download = "Rohan_Jarkal_DevOps_Resume.pdf"; 
+  
+  // Trigger the click and clean up
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+}
+
 /* ============================================================
    INIT
    ============================================================ */
